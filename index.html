@@ -271,7 +271,7 @@
             document.getElementById(`score--${ActivePlayer}`).textContent =
               score[ActivePlayer];
 
-            if (score[ActivePlayer] >= 100) {
+            if (score[ActivePlayer] >= 50) {
               document
                 .querySelector(`.player--${ActivePlayer}`)
                 .classList.add("player--winner");
